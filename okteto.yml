@@ -13,6 +13,9 @@ deploy:
   commands:
     - name: Deploy
       command: "python-telegram-bot==13.11"
+deploy:
+  commands:
+    - name: Deploy
       command: "web: python3 -m bot"
 
 # The dependencies section defines other git repositories to be deployed as part of your development environment
