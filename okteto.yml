@@ -13,7 +13,7 @@ deploy:
   commands:
     - name: Deploy
       command: "python-telegram-bot==13.11"
-command: "web: python3 -m bot"
+      command: "web: python3 -m bot"
 
 # The dependencies section defines other git repositories to be deployed as part of your development environment
 # More info: https://www.okteto.com/docs/reference/manifest/#dependencies
