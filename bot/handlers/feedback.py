@@ -10,9 +10,9 @@ logging.getLogger(__name__).setLevel(logging.INFO)
 # IMPORTANT VARIABLES
 OWNER_ID = vars.OWNER_ID
 
-LOG_TEXT = "ID: <code>{}</code>\nName: <a href='tg://user?id={}'>{}{}</a>\nStarted the bot..."
-START_TEXT = "You Can Give Feedback and Contact Admins by Sending Messages to Me..."
-MESSAGE = "<b>Message from:</b> <code>{}</code>\n<b>Name:</b> <a href='tg://user?id={}'>{}{}</a>\n\n{}"
+LOG_TEXT = "ID: <code>{}</code>\nName: <a href='tg://user?id={}'>{}{}</a>\nBotu başlattı..."
+START_TEXT = "Botu @animarsiv chatinde şu şekilde kullanabilirsin. \n'#request animeadı' ..."
+MESSAGE = "<b>Yeni mesaj:</b> <code>{}</code>\n<b>Name:</b> <a href='tg://user?id={}'>{}{}</a>\n\n{}"
 
 
 # ADDING HANDLERS
